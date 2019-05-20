@@ -1,0 +1,28 @@
+{
+	"DEFAULT": {
+		"ROOT_PATH": "D:\\workspace\\sodeeps_neural_style_transfer",
+		"RESOURCE_PATH": "D:\\workspace\\sodeeps_neural_style_transfer\\resources"
+	},
+
+	"IMAGES": {
+		"PATH": "D:\\workspace\\sodeeps_neural_style_transfer\\resources\\images",
+		"CONTENT": "louvre_small.jpg",
+		"STYLE": "monet.jpg"
+	},
+
+	"MODEL": {
+		"STYLE_LAYERS_NAME": [
+			"conv1_1", "conv2_1", "conv3_1", "conv4_1", "conv5_1"
+		],
+		"STYLE_LAYERS_WEIGHT": [
+			0.2, 0.2, 0.2, 0.2, 0.2
+		],
+		"ITERATION": 200
+	},
+
+	"OUTPUT": {
+		"PATH": "D:\\workspace\\sodeeps_neural_style_transfer\\output",
+		"PROGRESS": "step_images.png",
+		"OUTPUT": "generated_images.jpg"
+	}
+}

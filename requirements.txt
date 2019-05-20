@@ -1,0 +1,8 @@
+scipy
+matplotlib
+Pillow
+image
+imageio
+scikit-image
+numpy
+tensorflow-gpu == 1.13.1
